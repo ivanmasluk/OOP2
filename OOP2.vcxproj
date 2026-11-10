@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d1c77dbd-e89f-4b1b-9f28-a7c64818d35a}</ProjectGuid>
+    <RootNamespace>OOP2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Attributes\Armor.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Attributes\Attack.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Attributes\Health.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Base\Base.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Factories\ArcherFactory.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Factories\CavalryFactory.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Factories\InfantryFactory.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\GameField.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\GameFieldIterator.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\main.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\Altar.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\EnergySource.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\NeutralOperators.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\Trap.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\TreasureChest.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Strategies\AttackBoostStrategy.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Strategies\DamageStrategy.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Strategies\HealthRestoreStrategy.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Strategies\ResourceStrategy.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\Forest.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\Mountains.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\Plains.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\Swamp.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\TerrainMap.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\TerrainProxy.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Archer.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Cataphract.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Cavalry.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\HeavyArcher.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\HorseArcher.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Infantry.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\LightArcher.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Spearman.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Swordsman.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Unit.cpp" />
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\UnitTypeInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Attributes\Armor.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Attributes\Attack.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Attributes\Health.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Base\Base.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Events\IObservable.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Events\IObserver.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Events\UnitEvent.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Factories\ArcherFactory.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Factories\CavalryFactory.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Factories\InfantryFactory.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Factories\UnitFactory.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\GameField.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\GameFieldIterator.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\Altar.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\EnergySource.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\NeutralObject.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\NeutralOperators.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\Trap.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\TreasureChest.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Strategies\AttackBoostStrategy.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Strategies\DamageStrategy.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Strategies\HealthRestoreStrategy.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Strategies\IInteractionStrategy.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Strategies\ResourceStrategy.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\Forest.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\Mountains.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\Plains.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\Swamp.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\Terrain.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\TerrainMap.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\TerrainProxy.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\TerrainType.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Archer.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Cataphract.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Cavalry.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\HeavyArcher.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\HorseArcher.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Infantry.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\LightArcher.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Spearman.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Swordsman.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Unit.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\UnitType.h" />
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\UnitTypeInfo.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

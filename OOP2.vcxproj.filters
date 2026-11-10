@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Units">
+      <UniqueIdentifier>{07a03be8-3920-4837-9145-d82b981cff88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Terrain">
+      <UniqueIdentifier>{d68fe196-2d68-43ba-8c84-f315b359d649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Strategies">
+      <UniqueIdentifier>{0b93304b-5ba7-4fb2-a273-c08b42cdbc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\NeutralObjects">
+      <UniqueIdentifier>{7442a1c0-ac20-40bd-8286-66dc1222723e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Factories">
+      <UniqueIdentifier>{9cf8bf9d-4159-4275-bb8a-af44bfec6bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Events">
+      <UniqueIdentifier>{cab74d60-06e8-4035-accb-0a5544b59996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Base">
+      <UniqueIdentifier>{b627f495-c425-4cfd-b2f4-d18c33e46e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Attributes">
+      <UniqueIdentifier>{ee48687f-d02f-4b25-8736-b21362541ad2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\GameField.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\GameFieldIterator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Archer.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Cataphract.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Cavalry.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\HeavyArcher.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\HorseArcher.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Infantry.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\LightArcher.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Spearman.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Swordsman.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\Unit.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Units\UnitTypeInfo.cpp">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\Forest.cpp">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\Mountains.cpp">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\Plains.cpp">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\Swamp.cpp">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\TerrainMap.cpp">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Terrain\TerrainProxy.cpp">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Strategies\AttackBoostStrategy.cpp">
+      <Filter>Исходные файлы\Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Strategies\DamageStrategy.cpp">
+      <Filter>Исходные файлы\Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Strategies\HealthRestoreStrategy.cpp">
+      <Filter>Исходные файлы\Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Strategies\ResourceStrategy.cpp">
+      <Filter>Исходные файлы\Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\Altar.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\EnergySource.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\NeutralOperators.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\Trap.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\TreasureChest.cpp">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Factories\ArcherFactory.cpp">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Factories\CavalryFactory.cpp">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Factories\InfantryFactory.cpp">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Base\Base.cpp">
+      <Filter>Исходные файлы\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Attributes\Armor.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Attributes\Attack.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Downloads\GameOOP-main\Attributes\Health.cpp">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\GameField.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\GameFieldIterator.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Archer.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Cataphract.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Cavalry.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\HeavyArcher.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\HorseArcher.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Infantry.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\LightArcher.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Spearman.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Swordsman.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\Unit.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\UnitType.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Units\UnitTypeInfo.h">
+      <Filter>Исходные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\Forest.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\Mountains.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\Plains.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\Swamp.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\Terrain.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\TerrainMap.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\TerrainProxy.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Terrain\TerrainType.h">
+      <Filter>Исходные файлы\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Strategies\AttackBoostStrategy.h">
+      <Filter>Исходные файлы\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Strategies\DamageStrategy.h">
+      <Filter>Исходные файлы\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Strategies\HealthRestoreStrategy.h">
+      <Filter>Исходные файлы\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Strategies\IInteractionStrategy.h">
+      <Filter>Исходные файлы\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Strategies\ResourceStrategy.h">
+      <Filter>Исходные файлы\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\Altar.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\EnergySource.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\NeutralObject.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\NeutralOperators.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\Trap.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\NeutralObjects\TreasureChest.h">
+      <Filter>Исходные файлы\NeutralObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Factories\ArcherFactory.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Factories\CavalryFactory.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Factories\InfantryFactory.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Factories\UnitFactory.h">
+      <Filter>Исходные файлы\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Events\IObservable.h">
+      <Filter>Исходные файлы\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Events\IObserver.h">
+      <Filter>Исходные файлы\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Events\UnitEvent.h">
+      <Filter>Исходные файлы\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Base\Base.h">
+      <Filter>Исходные файлы\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Attributes\Armor.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Attributes\Attack.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Downloads\GameOOP-main\Attributes\Health.h">
+      <Filter>Исходные файлы\Attributes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
