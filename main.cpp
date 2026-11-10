@@ -74,7 +74,7 @@ int main() {
     ArcherFactory archerFactory;
     CavalryFactory cavalryFactory;
 
-    std::cout << "=== Сценарий 1: база создаёт юнитов ===\n";
+    std::cout << "    Сценарий 1: база создаёт юнитов\n";
 
     GameField field(16, 12, 20);
     TerrainMap terrainMap(16, 12);
@@ -93,7 +93,7 @@ int main() {
     std::cout << "Карта (. равнина, * лес, ~ болото, ^ горы):\n";
     printMap(field, terrainMap);
 
-    std::cout << "\n=== Сценарий 2: ландшафт и TerrainProxy ===\n";
+    std::cout << "\n    Сценарий 2: ландшафт и TerrainProxy\n";
 
     double speed = 1.0;
     std::cout << "Swordsman пытается пройти на клетку:\n";
@@ -105,7 +105,7 @@ int main() {
     std::cout << "LightArcher в горы:\n";
     field.moveUnit(14, 0, 3, 3, terrainMap, &speed);
 
-    std::cout << "\n=== Сценарий 3: нейтральные объекты и операторы ===\n";
+    std::cout << "\n    Сценарий 3: нейтральные объекты и операторы\n";
 
     Unit* swordsman = field.getUnit(2, 0);
     if (swordsman == nullptr) {
@@ -138,7 +138,7 @@ int main() {
         std::cout << "Ресурсы базы: " << base.getResources() << "\n";
     }
 
-    std::cout << "\n=== Сценарий 4: Observer — уничтожение юнита ===\n";
+    std::cout << "\n    Сценарий 4: Observer — уничтожение юнита\n";
 
     Unit* target = field.getUnit(8, 5);
     if (target == nullptr) {
@@ -156,7 +156,7 @@ int main() {
                   << base.getLivingUnits() << "\n";
     }
 
-    std::cout << "\n=== Сценарий 5: итоговое поле ===\n";
+    std::cout << "\n    Сценарий 5: итоговое поле\n";
     printMap(field, terrainMap);
 
     return 0;
